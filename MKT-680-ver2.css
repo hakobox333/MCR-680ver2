@@ -112,7 +112,7 @@ main{
         color: white;
         background: linear-gradient(90deg, #108AA4 0%, #23DA56 100%);
         border-radius: 20px;
-        /*margin: 40px auto;*/
+        margin: 40px auto;
       }
   
 
@@ -231,12 +231,11 @@ color: #333333;}
 
 .txt-center{
   text-align: center;
-  
 }
 
 /*display: inline-block;をつけることで文章が左寄せに */
 .txt{
-display: block;
+display: inline-block;
 text-align: left;
 font-family: 'Inter';
 font-style: normal;
