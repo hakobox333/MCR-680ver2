@@ -100,12 +100,11 @@ main{
   }
   
   /* ボタンのスタイル */
-    .btn {
+   .btn {
         display: block;
         width: 320px;
         padding: 14px 32px;
         align-items: center;
-        margin: 0 auto;
         font-size: 16px;
         text-decoration: none;
         font-weight: bolder;
@@ -113,7 +112,7 @@ main{
         background: linear-gradient(90deg, #108AA4 0%, #23DA56 100%);
         border-radius: 20px;
         margin: 40px auto;
-      }
+  }
   
 
 
