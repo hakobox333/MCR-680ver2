@@ -26,8 +26,7 @@ main{
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-    padding: 53px 0 20px;
-
+    padding: 60px 0 20px;
   }
   /* 768pxより大きい画面幅の場合の背景画像 */
 @media (min-width: 769px) {
