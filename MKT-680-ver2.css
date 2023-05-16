@@ -1,0 +1,346 @@
+/* ボディのスタイル */
+body {
+    font-family:'Noto Sans JP';
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333333;
+  
+  }
+
+  .section-title{
+  text-align: center;
+  margin: 30px;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+main{
+  margin: 0 auto;
+  align-items: center;
+}
+  
+  /* ヘッダーのスタイル */
+  #section0{
+      background-image: url(image/occean.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    padding: 53px 0 40px;
+
+  }
+  /* 768pxより大きい画面幅の場合の背景画像 */
+@media (min-width: 769px) {
+  #section0 {
+    background-image: url(image/MKT680-ocian.png);
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+}
+
+
+  img{
+    max-width: 100%;
+    /*コレ*/height: auto;
+    display: block;
+  }
+
+  #background{
+    background-image: url(image/occean.png);
+    background-size: cover;
+    background-repeat: repeat;
+    color: #fff;
+    /*padding: 53px auto;*/
+    text-align: center;
+  
+  }
+  .img-item{
+    width: 301.39px;
+    margin: 0 auto 40px;
+  }
+  
+ .header-title{
+   text-align: center;
+    color: white;
+    margin: 0 auto 37px;
+  }
+
+
+
+
+/* Auto layout */
+
+
+  /* メインコンテンツのスタイル */
+  .main-content {
+    padding: 20px;
+  }
+  
+  /* セクションのスタイル */
+  section {
+    align-items: center;
+    text-align: center;
+    padding: 0 auto;
+    margin:  0 auto;
+
+  }
+  
+  /* タイトルのスタイル */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* パラグラフのスタイル */
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    display: block;
+  }
+  
+  /* ボタンのスタイル */
+    .btn {
+        display: block;
+        width: 320px;
+        padding: 14px 32px;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: bolder;
+        color: white;
+        background: linear-gradient(90deg, #108AA4 0%, #23DA56 100%);
+        border-radius: 20px;
+        /*margin: 40px auto;*/
+      }
+  
+
+
+#section1{
+  background-color: #49ADCD;
+  margin:  0 auto;
+  padding: 20px 16px;
+}
+
+#section1 .section-title{
+  max-width: 769px;
+  text-align: center;
+  color: white;
+  margin: 0 auto 20px;
+}
+.section-title p{
+  display: block;
+  margin-top: 12px;
+  line-height: 1.6;
+}
+
+#section1-center{
+  max-width: 768px;
+  min-width: 240px;
+  margin: auto;
+}
+
+#section1 p{
+display: block;
+text-align: left;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+margin-top: 8px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#section1 .section1-link{
+  text-decoration: none;
+  color: white;
+}
+
+
+#section2{
+  max-width: 768px;
+  width: 90%;
+  margin: 8px auto 80px auto;
+}
+
+.section-title{
+  text-align: center;
+  margin: 36px auto 20px;
+}
+
+.personarity{
+  display: flex;
+  margin:32px ;
+  text-align: left;
+  
+}
+
+.personarity-img{
+  max-width: 77px;
+  min-width: 77px;
+  /*コレ*/height: auto;
+  display: block;
+  margin-right: 40px;
+}
+
+
+
+.div-text h3{
+display: block;
+font-size: min(5.6vw,32px);
+margin-bottom: 5px;
+line-height: 1.6; 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+/* identical to box height */
+
+
+color: #333333;
+margin-bottom: 16px;
+}
+
+.div-text p{
+display: block;
+width: fit-content;
+flex-wrap: nowrap;
+line-height: 1.6;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin: auto 0;
+
+color: #333333;}
+
+
+.red-text{
+  color: #E26161;
+  font-weight: bold;
+}
+
+.txt-center{
+  text-align: center;
+  
+}
+
+/*display: inline-block;をつけることで文章が左寄せに */
+.txt{
+display: block;
+text-align: left;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.6;
+margin-top: 40px;
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+}
+
+/*ここからsection3*/
+#section3{
+  margin-bottom: 100px;
+  text-align: none;
+  text-align: center;
+  align-items: center;
+  /*maz-widthは768pxで今100%,真ん中になるように余白を左右に*/
+  max-width: 768px;
+  width: 100%;
+  padding: 16px auto;
+}
+
+
+ /* maxwidthを指定し、表示された画面の中でstickの長さは８０％（余白ができるように）と指定 */
+
+.stick{
+max-width: 768px;
+width: 80%;
+padding: 14px 32px;
+/*真ん中になるように*/
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+
+gap: 20px;
+height: 40px;
+color: white;
+background-color: #49ADCD;
+}
+
+
+.icon{
+  width: 21.36px;
+  height: auto;
+}
+
+
+
+.triangle{
+  width: 130px;
+  height: 15px;
+  border-left: 65px solid transparent;
+  border-right: 65px solid transparent;
+  border-top: 20px solid #c4c4c4;
+  margin: 8px auto;
+}
+
+
+
+
+
+ /* フッターのスタイル */
+ footer {
+  background-color: #444444;;
+  color: #fff;
+  padding: 20px ;
+}
+
+
+
+
+footer a{
+text-decoration: none;
+color: white;
+margin: 16px 8px;
+}
+
+.linkber{
+  align-content: space-between;
+  margin: 16px 0 0 0;
+
+}
+
+footer p{
+font-size: 8px;
+text-align: center;
+margin: 40px auto;
+}
+footer a:after {
+  padding: 0 0 0 0.2rem;
+  display: inline-block;
+  width: 1rem;
+  content:url('image/link.png');
+}
+
+
+
