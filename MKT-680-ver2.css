@@ -109,7 +109,7 @@ main{
         font-weight: bolder;
         color: white;
         background: linear-gradient(90deg, #108AA4 0%, #23DA56 100%);
-        border-radius: 20px;
+        border-radius: 40px;
         margin: 40px auto;
   }
   
@@ -160,7 +160,6 @@ flex-grow: 0;
 }
 
 #section1 .section1-link{
-  text-decoration: none;
   color: white;
 }
 
