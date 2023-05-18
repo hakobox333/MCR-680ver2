@@ -22,7 +22,7 @@ main{
   
   /* ヘッダーのスタイル */
   #section0{
-      background-image: url(image/occean.png);
+      background-image: url(image/ocian.jpg);
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -31,7 +31,7 @@ main{
   /* 768pxより大きい画面幅の場合の背景画像 */
 @media (min-width: 769px) {
   #section0 {
-    background-image: url(image/MKT680-ocian.png);
+    background-image: url(image/big-ocian.jpg);
     background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
