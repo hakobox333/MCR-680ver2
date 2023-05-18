@@ -195,7 +195,7 @@ flex-grow: 0;
 
 .div-text h3{
 display: block;
-font-size: min(5.6vw,32px);
+font-size: 20px;
 margin-bottom: 5px;
 line-height: 1.6; 
 font-family: 'Inter';
