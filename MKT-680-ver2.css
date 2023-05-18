@@ -1,6 +1,6 @@
 /* ボディのスタイル */
 body {
-    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow','Note Sans;
+    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -9,8 +9,7 @@ body {
   }
 
   .section-title{
-  text-align: center;
-  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow';
+  text-align: center
   margin: 30px;
   font-weight: bolder;
   font-size: 24px;
@@ -62,7 +61,6 @@ main{
   
  .header-title{
    text-align: center;
-     font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow';
     color: white;
     margin: 0 auto 37px;
   }
@@ -89,7 +87,7 @@ main{
   
   /* タイトルのスタイル */
   h1 {
-    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow';
+    
     font-size: 24px;
     font-weight: bold;
   }
@@ -125,7 +123,7 @@ main{
 }
 
 #section1 .section-title{
-  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow';
+  
   max-width: 769px;
   text-align: center;
   color: white;
@@ -146,7 +144,7 @@ main{
 #section1 p{
 display: block;
 text-align: left;
-font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow';
+
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -175,7 +173,7 @@ flex-grow: 0;
 }
 
 .section-title{
-    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow';
+   
   text-align: center;
   margin: 36px auto 20px;
 }
@@ -203,7 +201,7 @@ display: block;
 font-size: 20px;
 margin-bottom: 5px;
 line-height: 1.6; 
-font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow';
+
 font-style: normal;
 font-weight: 600;
 /* identical to box height */
@@ -218,7 +216,7 @@ display: block;
 width: fit-content;
 flex-wrap: nowrap;
 line-height: 1.6;
-font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow';
+
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -240,7 +238,7 @@ color: #333333;}
 .txt{
 display: inline-block;
 text-align: left;
-font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow';
+
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
