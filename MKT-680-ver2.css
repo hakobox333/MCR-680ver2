@@ -10,6 +10,7 @@ body {
 
   .section-title{
   text-align: center;
+  font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 30px;
   font-weight: bolder;
   font-size: 24px;
@@ -142,7 +143,7 @@ main{
 #section1 p{
 display: block;
 text-align: left;
-font-family: 'Inter';
+font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -213,7 +214,7 @@ display: block;
 width: fit-content;
 flex-wrap: nowrap;
 line-height: 1.6;
-font-family: 'Inter';
+font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -235,7 +236,7 @@ color: #333333;}
 .txt{
 display: inline-block;
 text-align: left;
-font-family: 'Inter';
+font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
